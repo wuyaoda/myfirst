@@ -8,18 +8,18 @@
         // 指定图表的配置项和数据
         var option = {
             title: {
-                text: 'ECharts 入门示例'
+                text: 'Elastic 入门示例'
             },
             tooltip: {},
             legend: {
-                data:['销量']
+                data:['数量']
             },
             xAxis: {
-                data: ["衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子"]
+                data: ["stock1","stock2","stock3","stock4","stock5","stock6"]
             },
             yAxis: {},
             series: [{
-                name: '销量',
+                name: '数量',
                 type: 'bar',
                 data: [5, 20, 36, 10, 10, 20]
             }]
