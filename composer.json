@@ -1,0 +1,14 @@
+{
+	"require":{
+		"elasticsearch/elasticsearch": "~2.0",
+		"predis/predis":"*"
+	},
+	"autoload":{
+		"classmap":[
+			"application/controllers",
+			"application/models",
+			"command",
+			"src"			
+		]
+	}
+}
